@@ -10,12 +10,12 @@ This repository was part of a hands-on internship task focused on subnet analysi
 - Visualize network distributions with Matplotlib
 - Wrap the logic into a Docker container for scalable deployment
 
-## What I Learned
+### 📘 What I Learned
 
-- **Subnet math** is more satisfying than I expected. There’s something poetic about counting usable IPs and watching them fit like puzzle pieces.
-- **Python’s `ipaddress` module** is underrated — slicing through networks like butter.
-- **Matplotlib** taught me that design and data truly go hand in hand. A well-placed color or axis label changes the story entirely.
-- **Docker** turned my script into a deployable service — and made me rethink how I package anything going forward.
+- **Subnet analysis** turned out to be more insightful than expected. Understanding how IP ranges are calculated and allocated revealed the practical depth behind something I previously viewed as abstract.
+- **Python’s `ipaddress` module** turned out to be a hidden gem. It made network slicing feel effortless, and clarified concepts I had only seen in theory.
+- **Matplotlib** deepened my appreciation for the role of design in data presentation. A single color or axis label can dramatically shift how insights are interpreted.
+- **Docker** reshaped my approach to packaging. Transforming a simple script into a deployable service showed me what real-world scalability looks like.
 
 ## Folder Breakdown
 
@@ -40,3 +40,4 @@ This repository was part of a hands-on internship task focused on subnet analysi
 ```bash
 docker build -t subnet-analyzer .
 docker run subnet-analyzer
+
